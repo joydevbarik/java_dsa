@@ -1,6 +1,5 @@
-import java.util.*;
 
-public class single {
+public class single  {
     public static int singleNumber(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             boolean foundDuplicate = false;
